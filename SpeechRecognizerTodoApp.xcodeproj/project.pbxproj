@@ -56,13 +56,9 @@
 		95B53B0E252335F400F0E258 /* SpeechRecognizerTodoApp */ = {
 			isa = PBXGroup;
 			children = (
-				95B53B0F252335F400F0E258 /* SpeechRecognizerTodoAppApp.swift */,
-				95B53B11252335F400F0E258 /* ContentView.swift */,
-				95B53B13252335F600F0E258 /* Assets.xcassets */,
-				95B53B18252335F600F0E258 /* Persistence.swift */,
-				95B53B1D252335F600F0E258 /* Info.plist */,
-				95B53B1A252335F600F0E258 /* SpeechRecognizerTodoApp.xcdatamodeld */,
-				95B53B15252335F600F0E258 /* Preview Content */,
+				95B53B262523375100F0E258 /* PersistenceManager */,
+				95B53B252523373B00F0E258 /* Views */,
+				95B53B24252336FD00F0E258 /* App */,
 			);
 			path = SpeechRecognizerTodoApp;
 			sourceTree = "<group>";
@@ -73,6 +69,34 @@
 				95B53B16252335F600F0E258 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95B53B24252336FD00F0E258 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				95B53B1D252335F600F0E258 /* Info.plist */,
+				95B53B15252335F600F0E258 /* Preview Content */,
+				95B53B13252335F600F0E258 /* Assets.xcassets */,
+				95B53B0F252335F400F0E258 /* SpeechRecognizerTodoAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		95B53B252523373B00F0E258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95B53B11252335F400F0E258 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95B53B262523375100F0E258 /* PersistenceManager */ = {
+			isa = PBXGroup;
+			children = (
+				95B53B1A252335F600F0E258 /* SpeechRecognizerTodoApp.xcdatamodeld */,
+				95B53B18252335F600F0E258 /* Persistence.swift */,
+			);
+			path = PersistenceManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
