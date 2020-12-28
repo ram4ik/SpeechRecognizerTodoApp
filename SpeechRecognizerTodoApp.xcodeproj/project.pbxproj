@@ -15,6 +15,7 @@
 		95B53B1C252335F600F0E258 /* SpeechRecognizerTodoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95B53B1A252335F600F0E258 /* SpeechRecognizerTodoApp.xcdatamodeld */; };
 		95D137C02599DBE600B6E3D5 /* MicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D137BF2599DBE600B6E3D5 /* MicManager.swift */; };
 		95D137C42599DF1000B6E3D5 /* VisualBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D137C32599DF1000B6E3D5 /* VisualBarView.swift */; };
+		95D137C82599E0C600B6E3D5 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D137C72599E0C600B6E3D5 /* SpeechManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		95B53B1D252335F600F0E258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95D137BF2599DBE600B6E3D5 /* MicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicManager.swift; sourceTree = "<group>"; };
 		95D137C32599DF1000B6E3D5 /* VisualBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualBarView.swift; sourceTree = "<group>"; };
+		95D137C72599E0C600B6E3D5 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		95B53B0E252335F400F0E258 /* SpeechRecognizerTodoApp */ = {
 			isa = PBXGroup;
 			children = (
+				95D137C62599E0AD00B6E3D5 /* SpeechManager */,
 				95D137BE2599DBB800B6E3D5 /* SpeechVizualization */,
 				95B53B262523375100F0E258 /* PersistenceManager */,
 				95B53B252523373B00F0E258 /* Views */,
@@ -111,6 +114,14 @@
 				95D137C32599DF1000B6E3D5 /* VisualBarView.swift */,
 			);
 			path = SpeechVizualization;
+			sourceTree = "<group>";
+		};
+		95D137C62599E0AD00B6E3D5 /* SpeechManager */ = {
+			isa = PBXGroup;
+			children = (
+				95D137C72599E0C600B6E3D5 /* SpeechManager.swift */,
+			);
+			path = SpeechManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 				95B53B12252335F400F0E258 /* ContentView.swift in Sources */,
 				95B53B10252335F400F0E258 /* SpeechRecognizerTodoAppApp.swift in Sources */,
 				95B53B1C252335F600F0E258 /* SpeechRecognizerTodoApp.xcdatamodeld in Sources */,
+				95D137C82599E0C600B6E3D5 /* SpeechManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
